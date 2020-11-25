@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -56,6 +57,36 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "production-ja": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "aot": true,
+              "outputPath": "dist/",
+              "i18nFile": "src/locale/messages.ja.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "hi",
+              "i18nMissingTranslation": "error"
+            },
+            "ja": {
+              "aot": true,
+              "outputPath": "dist/",
+              "i18nFile": "src/locale/messages.ja.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "hi",
+              "i18nMissingTranslation": "error"
             }
           }
         },
@@ -67,6 +98,9 @@
           "configurations": {
             "production": {
               "browserTarget": "ng-front:build:production"
+            },
+            "ja":{
+              "browserTarget": "ng-front:build:ja"
             }
           }
         },
@@ -119,6 +153,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-front"
+    }
+  },
+  "defaultProject": "ng-front",
+  "cli": {
+    "analytics": "3b2181b2-61e8-47ab-b4e0-df3a90130e3f"
+  }
 }

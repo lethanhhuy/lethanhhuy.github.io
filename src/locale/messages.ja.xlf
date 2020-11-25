@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="article-header" datatype="html">
+        <source>Articles</source>
+        <target>記事</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-content" datatype="html">
+        <source>This is an Articles!</source>
+        <target>これは記事です！</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-item-id" datatype="html">
+        <source>ID</source>
+        <target>ID</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-item-title" datatype="html">
+        <source>Title</source>
+        <target>題名</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-item-slug" datatype="html">
+        <source>Slug</source>
+        <target>ナメクジ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-item-body" datatype="html">
+        <source>Body</source>
+        <target>ボディ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-item-created" datatype="html">
+        <source>Created</source>
+        <target>作成した</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-add-title" datatype="html">
+        <source>Add</source>
+        <target>追加</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-input-title" datatype="html">
+        <source>Title <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/></source>
+        <target>題名</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-input-slug" datatype="html">
+        <source>Slug <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/></source>
+        <target>ナメクジ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-input-body" datatype="html">
+        <source>Body <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/></source>
+        <target>ボディ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="article-btn-add" datatype="html">
+        <source>Save</source>
+        <target>セーブ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
