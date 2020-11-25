@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="row">
+        <div class="float-left">
+            <ul>
+                <h2 i18n="@@article-header">Articles</h2>    
+            </ul>
+            <ul>
+                <h3 i18n="@@article-content">This is an Articles!</h3>    
+            </ul>
+        </div>
+        <div class="float-right">
+            <a href="\">English</a><br>
+            <a href="\ja">Japan</a><br>
+            <a href="\fr">French</a>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="row">
+        <div *ngFor="let article of articlesDisp">
+            <table class="table table-active table-responsive; let currentId = index">
+                <thead class="thead-dark">
+                    <tr>
+                        <th i18n="@@article-item-id">ID</th>
+                        <th i18n="@@article-item-title">Title</th>
+                        <th i18n="@@article-item-slug">Slug</th>
+                        <th i18n="@@article-item-body">Body</th>
+                        <th i18n="@@article-item-created">Created</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#{{article.id}}</td>
+                        <td>{{article.title}}</td>
+                        <td>{{article.slug}}</td>
+                        <td>{{article.body}}</td>
+                        <td>{{article.created}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <h5 i18n="@@article-add-title">Add</h5>
+        <div>
+            <ul i18n="@@article-input-title">Title</ul>
+            <input type="text" name="title" class="form-control" [(ngModel)]="title">
+            <ul i18n="@@article-input-slug">Slug</ul>
+            <input type="text" name="slug" class="form-control" [(ngModel)]="slug">
+            <ul i18n="@@article-input-body">Body</ul>
+            <input type="text" name="body" class="form-control" [(ngModel)]="body">
+            <ul>
+                <button type="button" i18n="@@article-btn-add" class="btn btn-primary" (click)="addArticle($event)">Save</button>
+            </ul>
+        </div>
+    </div>
+</div>
